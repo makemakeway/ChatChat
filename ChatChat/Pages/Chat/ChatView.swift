@@ -19,6 +19,7 @@ class ChatView: UIView, ViewRepresentable {
         
         self.backgroundColor = .darkGray
         tableView.rowHeight = UITableView.automaticDimension
+        tableView.backgroundColor = .darkGray
     }
     
     func setUpConstraints() {

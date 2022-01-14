@@ -20,11 +20,10 @@ class MyMessageTableViewCell: UITableViewCell {
         contentView.backgroundColor = .darkGray
         
         messageLabel.font = UIFont.systemFont(ofSize: 16, weight: .medium)
-        messageLabel.backgroundColor = .gray
-        messageLabel.textColor = .white
+        messageLabel.textColor = .black
         messageLabel.numberOfLines = 0
         
-        messageBubbleView.backgroundColor = .gray
+        messageBubbleView.backgroundColor = .yellow
         messageBubbleView.layer.cornerRadius = 10
         
         contentView.addSubview(messageDateLabel)

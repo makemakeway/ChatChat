@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		C237D3A12790560A0032BD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3A02790560A0032BD6D /* AppDelegate.swift */; };
 		C237D3A32790560A0032BD6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3A22790560A0032BD6D /* SceneDelegate.swift */; };
-		C237D3A52790560A0032BD6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3A42790560A0032BD6D /* ViewController.swift */; };
 		C237D3AA2790560D0032BD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C237D3A92790560D0032BD6D /* Assets.xcassets */; };
 		C237D3AD2790560D0032BD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C237D3AB2790560D0032BD6D /* LaunchScreen.storyboard */; };
 		C237D3B82790560D0032BD6D /* ChatChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3B72790560D0032BD6D /* ChatChatTests.swift */; };
 		C237D3C22790560D0032BD6D /* ChatChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3C12790560D0032BD6D /* ChatChatUITests.swift */; };
 		C237D3C42790560D0032BD6D /* ChatChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3C32790560D0032BD6D /* ChatChatUITestsLaunchTests.swift */; };
 		C237D3D12790561C0032BD6D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3D02790561C0032BD6D /* ChatViewController.swift */; };
-		C237D3D42790569F0032BD6D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C237D3D32790569F0032BD6D /* IQKeyboardManagerSwift */; };
 		C237D3D7279056B50032BD6D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C237D3D6279056B50032BD6D /* SnapKit */; };
 		C237D3DA279056CC0032BD6D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = C237D3D9279056CC0032BD6D /* RxCocoa */; };
 		C237D3DC279056CC0032BD6D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = C237D3DB279056CC0032BD6D /* RxRelay */; };
@@ -29,6 +27,11 @@
 		C237D3F1279085110032BD6D /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3F0279085110032BD6D /* ViewRepresentable.swift */; };
 		C237D3F32790862D0032BD6D /* ChatFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3F22790862D0032BD6D /* ChatFooterView.swift */; };
 		C237D3F7279092580032BD6D /* MyMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D3F6279092580032BD6D /* MyMessageTableViewCell.swift */; };
+		C237D3FA2790F98B0032BD6D /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = C237D3F92790F98B0032BD6D /* SocketIO */; };
+		C237D3FD2790F9B50032BD6D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C237D3FC2790F9B50032BD6D /* Alamofire */; };
+		C237D4002790FA090032BD6D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C237D3FF2790FA090032BD6D /* IQKeyboardManagerSwift */; };
+		C237D403279107220032BD6D /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D402279107220032BD6D /* SocketIOManager.swift */; };
+		C237D4052791BEF10032BD6D /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237D4042791BEF10032BD6D /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,6 @@
 		C237D39D2790560A0032BD6D /* ChatChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C237D3A02790560A0032BD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C237D3A22790560A0032BD6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C237D3A42790560A0032BD6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C237D3A92790560D0032BD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C237D3AC2790560D0032BD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C237D3AE2790560D0032BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +72,8 @@
 		C237D3F0279085110032BD6D /* ViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentable.swift; sourceTree = "<group>"; };
 		C237D3F22790862D0032BD6D /* ChatFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFooterView.swift; sourceTree = "<group>"; };
 		C237D3F6279092580032BD6D /* MyMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMessageTableViewCell.swift; sourceTree = "<group>"; };
+		C237D402279107220032BD6D /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		C237D4042791BEF10032BD6D /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C237D4002790FA090032BD6D /* IQKeyboardManagerSwift in Frameworks */,
 				C237D3DA279056CC0032BD6D /* RxCocoa in Frameworks */,
-				C237D3D42790569F0032BD6D /* IQKeyboardManagerSwift in Frameworks */,
+				C237D3FD2790F9B50032BD6D /* Alamofire in Frameworks */,
 				C237D3DE279056CC0032BD6D /* RxSwift in Frameworks */,
 				C237D3DC279056CC0032BD6D /* RxRelay in Frameworks */,
 				C237D3D7279056B50032BD6D /* SnapKit in Frameworks */,
+				C237D3FA2790F98B0032BD6D /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +131,7 @@
 		C237D39F2790560A0032BD6D /* ChatChat */ = {
 			isa = PBXGroup;
 			children = (
-				C237D3EB279084580032BD6D /* ViewModel */,
+				C237D4012791070B0032BD6D /* Util */,
 				C237D3EA279084540032BD6D /* Model */,
 				C237D3E727907F4A0032BD6D /* Extension */,
 				C237D3E427907F290032BD6D /* Protocol */,
@@ -168,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				C237D3E1279070080032BD6D /* Chat */,
-				C237D3A42790560A0032BD6D /* ViewController.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -210,11 +215,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C237D3EB279084580032BD6D /* ViewModel */ = {
+		C237D4012791070B0032BD6D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				C237D402279107220032BD6D /* SocketIOManager.swift */,
+				C237D4042791BEF10032BD6D /* DateManager.swift */,
 			);
-			path = ViewModel;
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,11 +241,13 @@
 			);
 			name = ChatChat;
 			packageProductDependencies = (
-				C237D3D32790569F0032BD6D /* IQKeyboardManagerSwift */,
 				C237D3D6279056B50032BD6D /* SnapKit */,
 				C237D3D9279056CC0032BD6D /* RxCocoa */,
 				C237D3DB279056CC0032BD6D /* RxRelay */,
 				C237D3DD279056CC0032BD6D /* RxSwift */,
+				C237D3F92790F98B0032BD6D /* SocketIO */,
+				C237D3FC2790F9B50032BD6D /* Alamofire */,
+				C237D3FF2790FA090032BD6D /* IQKeyboardManagerSwift */,
 			);
 			productName = ChatChat;
 			productReference = C237D39D2790560A0032BD6D /* ChatChat.app */;
@@ -313,9 +322,11 @@
 			);
 			mainGroup = C237D3942790560A0032BD6D;
 			packageReferences = (
-				C237D3D22790569F0032BD6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				C237D3D5279056B50032BD6D /* XCRemoteSwiftPackageReference "SnapKit" */,
 				C237D3D8279056CC0032BD6D /* XCRemoteSwiftPackageReference "RxSwift" */,
+				C237D3F82790F98B0032BD6D /* XCRemoteSwiftPackageReference "socket" */,
+				C237D3FB2790F9B50032BD6D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C237D3FE2790FA090032BD6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = C237D39E2790560A0032BD6D /* Products */;
 			projectDirPath = "";
@@ -361,14 +372,15 @@
 			files = (
 				C237D3E927907F590032BD6D /* UITableViewCell+Extension.swift in Sources */,
 				C237D3E327907ED10032BD6D /* YourMessageTableViewCell.swift in Sources */,
-				C237D3A52790560A0032BD6D /* ViewController.swift in Sources */,
 				C237D3A12790560A0032BD6D /* AppDelegate.swift in Sources */,
 				C237D3EF279084CF0032BD6D /* ChatView.swift in Sources */,
 				C237D3E627907F390032BD6D /* ReusableView.swift in Sources */,
 				C237D3ED279084760032BD6D /* Chat.swift in Sources */,
 				C237D3D12790561C0032BD6D /* ChatViewController.swift in Sources */,
 				C237D3A32790560A0032BD6D /* SceneDelegate.swift in Sources */,
+				C237D403279107220032BD6D /* SocketIOManager.swift in Sources */,
 				C237D3F7279092580032BD6D /* MyMessageTableViewCell.swift in Sources */,
+				C237D4052791BEF10032BD6D /* DateManager.swift in Sources */,
 				C237D3F1279085110032BD6D /* ViewRepresentable.swift in Sources */,
 				C237D3F32790862D0032BD6D /* ChatFooterView.swift in Sources */,
 			);
@@ -726,14 +738,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C237D3D22790569F0032BD6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
-			};
-		};
 		C237D3D5279056B50032BD6D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -750,14 +754,33 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		C237D3F82790F98B0032BD6D /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 16.0.1;
+			};
+		};
+		C237D3FB2790F9B50032BD6D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C237D3FE2790FA090032BD6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.9;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C237D3D32790569F0032BD6D /* IQKeyboardManagerSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C237D3D22790569F0032BD6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
-			productName = IQKeyboardManagerSwift;
-		};
 		C237D3D6279056B50032BD6D /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C237D3D5279056B50032BD6D /* XCRemoteSwiftPackageReference "SnapKit" */;
@@ -777,6 +800,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C237D3D8279056CC0032BD6D /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		C237D3F92790F98B0032BD6D /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C237D3F82790F98B0032BD6D /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+		C237D3FC2790F9B50032BD6D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C237D3FB2790F9B50032BD6D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C237D3FF2790FA090032BD6D /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C237D3FE2790FA090032BD6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
